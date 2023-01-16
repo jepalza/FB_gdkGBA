@@ -1,0 +1,77 @@
+[Project]
+Version=3
+Description=GBA Emulator FreeBasic
+Api=fb (FreeBASIC),gdip (Gdi+),ogl (OpenGL),sv (Showvars),win (Windows)
+DefApi=fb (FreeBASIC),gdip (Gdi+),ogl (OpenGL),sv (Showvars),win (Windows)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Module=Module Build,fbc -c
+Recompile=2
+Current=1
+1=Consola x64,fbc64 -s console
+2=Windows x64,fbc64 -s gui
+Output=
+Run=
+Delete=
+[TabOrder]
+CurrentTab=1
+TabOrder=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+[File]
+Main=1
+1=_main.bas
+2=arm.bas
+3=arm_mem.bas
+4=dma.bas
+5=io.bas
+6=sdl.bas
+7=sound.bas
+8=timer.bas
+9=video.bas
+10=arm.bi
+11=arm_mem.bi
+12=dma.bi
+13=sound.bi
+14=io.bi
+15=timer.bi
+16=sdl.bi
+[BreakPoint]
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+8=
+9=
+10=
+11=
+12=
+13=
+14=
+15=
+16=
+[FileInfo]
+1=0,50,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,3420,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,104,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4=0,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5=0,303,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6=0,13,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7=0,302,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+8=0,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9=0,211,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10=0,134,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11=0,34,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+12=0,15,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+13=0,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+14=0,19,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+15=0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+16=0,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
